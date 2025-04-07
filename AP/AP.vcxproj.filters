@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\Part1">
+      <UniqueIdentifier>{7c31d42f-9fc9-40f1-9414-1209a0500c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Part1">
+      <UniqueIdentifier>{5e6331d6-5f5a-4c6a-9da1-f51e30dd68b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TmpConfirm.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="SetTheory.cpp">
+      <Filter>ソース ファイル\Part1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SetTheory.h">
+      <Filter>ヘッダー ファイル\Part1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

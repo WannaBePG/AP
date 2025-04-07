@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SetTheory.cpp" />
     <ClCompile Include="TmpConfirm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SetTheory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
